@@ -96,6 +96,13 @@ Write a helper function to return half the magnitude of the bootstrapped CI
 """
 
 """
+Done with that?
+Pick some statistics from your research that are not available in standard libraries.
+Write functions to compute them.
+Use this as start of a personal toolbox.
+"""
+
+"""
 Problem 4: remove missing values.
 
 You have some data, real data are numbers, missing values are denoted by "."
