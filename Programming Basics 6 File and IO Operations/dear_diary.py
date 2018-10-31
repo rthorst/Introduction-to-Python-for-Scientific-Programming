@@ -4,7 +4,7 @@ start_entry = "Dear Diary,\r\n\t"
 
 with open("diary.txt", "a") as diary_file:
     while True:
-        print("Write an entry in your diary.")
+        print("Write an entry in your diary.  Type \"quit\" to quit.")
         print()
         text = input(start_entry)
         if text == "quit":

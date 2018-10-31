@@ -1,12 +1,12 @@
-with open("filenamehere.txt", "a+") as open_file:
+with open("filenamehere.txt", "a") as open_file:
     current_text = open_file.read()
-    open_file.write("text to \r\n")
+    open_file.write("yada yada yada \r\n")
 
 # this is identical to
 
-open_file = open("filenamehere.txt", "a+")
+open_file = open("filenamehere.txt", "a")
 current_text = open_file.read()
-open_file.write("text to write\r\n")
+open_file.write("yada yada yada \r\n")
 open_file.close()
 
 # use the first one!  that way you don't have to remember to close
